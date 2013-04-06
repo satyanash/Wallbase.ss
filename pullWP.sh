@@ -32,6 +32,10 @@ WP_HOME="$HOME/Pictures/Pulled/"
 ## List type, can be "random" or "toplist"
 LIST_TYPE="random"
 
+## Your background setter command
+## can be anything like feh, nitrogen, hsetroot, xsetbg... et al
+image_command="feh --bg-fill"
+
 ##--------------------------------------------------------------------------
 ##DO NOT EDIT ANYTHING BELOW THIS LINE
 ##############
@@ -153,7 +157,7 @@ do
 	IMG_NAME=$( echo $IMG_LINK | awk -F\/ ' { print $NF }');
 
 	### Set the image as wallpaper.
-	hsetroot -full $WP_HOME/$IMG_NAME;
+	$image_command $WP_HOME/$IMG_NAME;
 
 	## Go to sleep
 	sleep $interval;

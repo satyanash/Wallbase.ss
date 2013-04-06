@@ -14,11 +14,10 @@ It has the following dependencies:
 
 	wget -- To perform the actuall HTTP requests.
 
-	hsetroot -- yet another wallpaper application
+	hsetroot -- OR any another wallpaper application such as feh, nitrogen or xsetbg
 
 
 The above dependencies are easily available in the package managers of your favorite distribution.
-
 
 The script supports some command line options such as:
 
@@ -30,6 +29,6 @@ The script supports some command line options such as:
 
 Sample use case:
 
-Fetch a new wallpaper every half hour
+Fetch a new wallpaper every half hour, and store them in ./Pulled
 
-./pullWP.sh -i 1800
+./pullWP.sh -i 1800 -d "./Pulled/"

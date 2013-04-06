@@ -2,7 +2,7 @@
 ## This script will automatically pull a wallpaper list from Wallbase.cc
 ## choose a random one, and then apply it.
 ## Uses feh, an X11 background setter as the backend
-## Contact -- satyajeet@grumblegrumble.no-ip.org
+## Contact -- satyanash@rock.it.cx
 
 #######
 ##Purity flags, 1=true, 0=false

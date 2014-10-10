@@ -1,6 +1,7 @@
 Wallbase.ss
-
 =================
+
+**Note: Since Wallbase.cc is dead, this script is no longer maintained. May be resurrected when wallhaven.cc is functional.**
 
 This is a simple bash script that automatically downloads wallpapers from the excellent website http://wallbase.cc and sets them as your desktop background. 
 
